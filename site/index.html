@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Games \o/</title>
+    </head>
+    <body ws-x="theme[tron] @app">
+        <script src="https://cdn.jsdelivr.net/npm/@axel669/windstorm@0.1.13/dist/browser.js"></script>
+
+        <div ws-x="flex fl-center pos[fixed] inset[0px]">
+            <ws-paper ws-x="w[320px] h[480px] @outline">
+                <ws-titlebar ws-x="@fill $color[primary] slot[header]">
+                    <span ws-x="slot[title] $title t-a[center]">
+                        Games
+                    </span>
+                </ws-titlebar>
+
+                <ws-flex ws-x="over[auto]">
+                    <a ws-x="@button $color[secondary]"
+                    href="lights-out" target="_blank">
+                        Lights Out
+                    </a>
+                </ws-flex>
+            </ws-paper>
+        </div>
+    </body>
+</html>
